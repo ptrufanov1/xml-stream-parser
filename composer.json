@@ -1,0 +1,31 @@
+{
+    "name": "ptrufanov1/xml-stream-parser",
+    "description": "❤️ XML Streaming Parser for Laravel. 🌏 2022",
+    "keywords": [
+        "XML",
+        "XML Parser",
+        "Laravel",
+        "Laravel XML Parser",
+        "Parser"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "version": "0.1.0",
+    "autoload": {
+        "psr-4": {
+            "Ptrufanov1\\XmlStreamParser\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pavel Trufanov",
+            "email": "trufanov.pavel.trufanov@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ext-xmlreader": "*",
+        "php": "^7.4|^8.0",
+        "laravel/framework": "5.8.*|6.*|7.*|8.*|9.*"
+    }
+}
